@@ -1,0 +1,29 @@
+{
+  "name": "module-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hokkoo/module-structure.git"
+  },
+  "author": "tony.king",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hokkoo/module-structure/issues"
+  },
+  "homepage": "https://github.com/hokkoo/module-structure#readme",
+  "dependencies": {
+    "deep-inspect": "^0.0.2",
+    "fis3": "^3.3.29",
+    "grunt": "^1.0.1",
+    "js-beautify": "^1.6.2",
+    "lodash": "^4.11.2",
+    "object-inspect": "^1.2.1",
+    "prettyjson": "^1.1.3",
+    "xmind": "^0.1.20160310"
+  }
+}
