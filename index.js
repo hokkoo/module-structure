@@ -9,7 +9,10 @@ var fis3 = require('fis3');
 var jsBeautify = require('js-beautify').js_beautify;
 var _ = require('lodash');
 var xmind = require('xmind');
+var phantomjs = require('phantomjs')
+var childProcess = require('child_process')
 
+var binPath = phantomjs.path
 
 function Main () {
   var packageJson = grunt.file.readJSON('package.json');
